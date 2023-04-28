@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Form Registrasi CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Created By : Ria Setiaji  -->
+</head>
+<body>
+    <div class="box">
+    <table align="center">
+        <form action="/action_page.php" method="post" autocomplete="on">
+        <tr>
+            <td align="center" colspan="2">
+                <h3>Registrasi Anggota Baru Perpustakaan</h3>
+            </td>
+        </tr>
+        <tr">
+            <td> 
+                <label for="username">Nama Lengkap</label>
+            </td>
+            <td>
+                <input type="text" id="username_id" name="username" pattern="[A-Za-z0-9]+" title="Username" required placeholder="Isi nama...">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pwd">Password</label>
+            </td>
+            <td>
+                <input type="password" id="pwd" name="pwd" autocomplete="off" placeholder="Isi password...">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="favcolor">Pilih warna kartu anggota</label>
+            </td>
+            <td>
+                <input type="color" id="favcolor" name="favcolor" value="#00BFFF">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="birthday">Tanggal Lahir</label>
+            </td>
+            <td>
+                <input type="date" id="birthday" name="birthday">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Jenis Kelamin</label>
+            </td>
+            <td>
+                <input list="jeniskelamin" id="gender" name="gender" placeholder="pilih salah satu">
+                    <datalist id="jeniskelamin">
+                        <option value="Laki-Laki">
+                        <option value="Perempuan">
+                    </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hp">Nomor HP</label>
+            </td>
+            <td>
+                <input type="tel" id="hp" name="hp" pattern="[0-9]{3}-[0-9]{3}-[0- 9]{3}-[0- 9]{3}" placeholder="Utamakan nomor WA">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">E-mail yang aktif</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" placeholder="example@mail.com...">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Umur</label>
+            </td>
+            <td>
+                <input type="number" id="age" name="age" min="1" max="150">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="homepage">Website Pribadi (Opsional)</label>        
+            </td>
+            <td>
+                <input type="url" id="homepage" name="homepage" placeholder="https://www.website.com">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="files">Upload Dokumen Pendukung lain</label><br><br>
+            </td>
+            <td>
+                <input type="file" id="files" name="files" multiple>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="image" src="https://dkp.jambikota.go.id/wp-content/uploads/KartuAnggota_3_page-0001.jpg" alt="image" width="330" height="auto" style="border-radius: 15px;">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input class="reset" type="reset">
+                <input class="button" type="submit" value="Submit" formaction="/action_page2.php" value="Submit as Admin">
+            </td>
+        </tr>
+    </div>
+    </table>     
+    </form>
+</body>
+</html>
