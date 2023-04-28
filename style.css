@@ -1,0 +1,53 @@
+body {
+    /*Mengatur warna background halaman*/
+    background-color: silver;
+}
+
+table {
+    /*Mengatur jenis font dan warna font*/
+    font-family: Verdana;
+    color: aliceblue;
+}
+
+div.box {
+    /*Menentukan dimensi ukuran*/
+    width: 500px;
+    height: auto;
+    /*Membuat gradasi warna background*/
+    background: linear-gradient(#1dc9f8,#2a0158);
+    /*Mengatur jarak margin*/
+    margin: auto;
+    margin-top: 10px;
+    /*Menata letak pada halaman website*/
+    padding: 10px;
+    /*Membentuk sudut lengkungan*/
+    border-radius: 10px;
+    /*Memberikan bayangan*/
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+}
+input.reset {
+    /*Mengatur dimensi ukuran persegi*/
+    width: 80px;
+    height: 40px;
+    /*Mengatur ukuran tulisan*/
+    font-size: large;
+    /*Mengatur garis tepi*/
+    border: 0px;
+    /*Mengatur lengkungan garis tepi*/
+    border-radius: 10px 0px 0px 10px;
+    /*Pemberian warna background*/
+    background-color: rgb(216, 175, 253);
+}
+input.button {
+    /*Mengatur dimensi ukuran persegi*/
+    width: 80px;
+    height: 40px;
+    /*Mengatur ukuran tulisan*/
+    font-size: large;
+    /*Mengatur garis tepi*/
+    border: 0px;
+    /*Mengatur lengkung garis tepi*/
+    border-radius: 0px 10px 10px 0px;
+    /*Pemberian warna background*/
+    background-color: rgb(216, 175, 253);
+}
