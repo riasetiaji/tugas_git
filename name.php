@@ -37,6 +37,10 @@
         margin-right: 10px;
     }
 
+    div.container {
+        margin-left: 23%;
+    }
+
     div.left {
         background-color: whitesmoke;
         padding: 10px;
@@ -76,34 +80,36 @@
 
 <body>
     <h1>Welcome to My Portfolio Website</h1>
-    <div class="left">
-        <img src="foto.jpg" height="150px" alt="Foto Profil">
-        <br>
-        <h2>Ria Setiaji</h2>
-    </div>
-    <div class="right">
-        <h2 style="text-align: justify;">From : Bootcamp IT Batch 6</h2>
-        <h2 style="text-align: justify;">Learn :</h2>
-        <H3 style="text-align: justify;">
-            <ul>
-                <li>HTML CSS</li>
-                <li>Bootstrap & jQuery</li>
-                <li>Database MySQL</li>
-                <li>PHP Laravel</li>
-                <li>GIT</li>
-            </ul>
-        </H3>
-    </div>
-    <div class="socialmedia">
-        <h2 style="text-align: justify;">Social Media :</h2>
-        <a class="social-media-icon" href="https://www.facebook.com"><span class="fab fa-facebook"></span>&nbsp;
-            BlueLotus</a><br>
-        <a class="social-media-icon" href="https://www.instagram.com"><span class="fab fa-instagram"></span>&nbsp;
-            BlueLotus_07</a><br>
-        <a class="social-media-icon" href="https://www.twitter.com"><span class="fab fa-twitter"></span>&nbsp;
-            BlueLotus_07</a><br>
-        <a class="social-media-icon" href="https://www.pinterest.com"><span class="fab fa-pinterest"></span>&nbsp;
-            BlueLotus_07</a>
+    <div class="container">
+        <div class="left">
+            <img src="foto.jpg" height="150px" alt="Foto Profil">
+            <br>
+            <h2>Ria Setiaji</h2>
+        </div>
+        <div class="right">
+            <h2 style="text-align: justify;">From : Bootcamp IT Batch 6</h2>
+            <h2 style="text-align: justify;">Learn :</h2>
+            <H3 style="text-align: justify;">
+                <ul>
+                    <li>HTML CSS</li>
+                    <li>Bootstrap & jQuery</li>
+                    <li>Database MySQL</li>
+                    <li>PHP Laravel</li>
+                    <li>GIT</li>
+                </ul>
+            </H3>
+        </div>
+        <div class="socialmedia">
+            <h2 style="text-align: justify;">Social Media :</h2>
+            <a class="social-media-icon" href="https://www.facebook.com"><span class="fab fa-facebook"></span>&nbsp;
+                BlueLotus</a><br>
+            <a class="social-media-icon" href="https://www.instagram.com"><span class="fab fa-instagram"></span>&nbsp;
+                BlueLotus_07</a><br>
+            <a class="social-media-icon" href="https://www.twitter.com"><span class="fab fa-twitter"></span>&nbsp;
+                BlueLotus_07</a><br>
+            <a class="social-media-icon" href="https://www.pinterest.com"><span class="fab fa-pinterest"></span>&nbsp;
+                BlueLotus_07</a>
+        </div>
     </div>
 </body>
 
